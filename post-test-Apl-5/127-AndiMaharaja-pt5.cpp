@@ -50,11 +50,11 @@ void lihatData(Musik *musik, int jumlah) {
     }
 
     for (int i = 0; i < jumlah; i++) {
-        cout << "\nID     : " << musik[i].id;
-        cout << "\nJudul  : " << musik[i].judul;
-        cout << "\nArtis  : " << musik[i].artis;
-        cout << "\nGenre  : " << musik[i].genre;
-        cout << "\nTahun  : " << musik[i].tahun << endl;
+        cout << "\nID MUSIK    : " << musik[i].id;
+        cout << "\nJudul LAGU  : " << musik[i].judul;
+        cout << "\nArtis       : " << musik[i].artis;
+        cout << "\nGenre       : " << musik[i].genre;
+        cout << "\nTahun RILIS : " << musik[i].tahun << endl;
     }
 }
 
@@ -170,9 +170,9 @@ int main() {
 
     do {
         cout << "\n=== MENU ===\n";
-        cout << "1. Tambah\n2. Lihat\n3. Ubah\n4. Hapus\n";
-        cout << "5. Sort Judul\n6. Sort Tahun\n7. Sort ID\n8. Keluar\n";
-        cout << "Pilih: ";
+        cout << "1. Tambah Musik\n2. Lihat Musik\n3. Ubah Musik\n4. Hapus Musik\n";
+        cout << "5. Sort Judul Musik\n6. Sort Tahun Musik\n7. Sort ID Musik\n8. Keluar\n";
+        cout << "Pilih:";
 
         cin >> pilihan;
 
